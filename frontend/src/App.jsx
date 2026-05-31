@@ -17,7 +17,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:5000/predict",
+        "https://fakeshield-ai-59th.onrender.com/predict",
         {
           news: news,
         }
